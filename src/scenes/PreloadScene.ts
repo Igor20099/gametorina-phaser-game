@@ -6,7 +6,8 @@ class PreloadScene extends Scene {
   }
 
   preload() {
-    //Тут загружаем игровые ассеты из папки public
+    this.load.audio("accept", "sounds/accept.ogg");
+    this.load.audio("lose", "sounds/lose.ogg");
   }
 
   create() {
